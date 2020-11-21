@@ -1,0 +1,15 @@
+{
+  "install": {
+    "include": [
+      "^package\\.json$"
+    ]
+  },
+  "restart": {
+    "include": [
+      "^postcss\\.config\\.js$",
+      "^tailwind\\.config\\.js$",
+      "^server\\.js$"
+    ]
+  },
+  "throttle": 100
+}
