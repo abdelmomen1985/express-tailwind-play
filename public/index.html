@@ -1,23 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Tailwind on Glitch</title>
-  <link rel="stylesheet" href="index.build.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Tailwind on Glitch</title>
+	<link rel="stylesheet" href="index.build.css">
 </head>
+
 <body>
-  <h1 class="font-bold text-lg m-4">Hello, Tailwind</h1>
-  
-  <div class="max-w-sm mx-auto flex p-6 bg-white rounded-lg shadow-lg">
-  <div class="flex-shrink-0">
-    <img class="h-12 w-12" src="https://cdn.glitch.com/226d3f91-bc90-405d-8b8b-eb403e359f3b%2Ficon.png?v=1578693322285" alt="ChitChat Logo">
-  </div>
-  <div class="ml-6 pt-1">
-    <h4 class="text-xl text-gray-900 leading-tight">ChitChat</h4>
-    <p class="text-base text-gray-600 leading-normal">You have a new message!</p>
-  </div>
-</div>
+	<!-- This example requires Tailwind CSS v2.0+ -->
+	<div class="relative bg-white">
+		<div class="max-w-7xl mx-auto px-4 sm:px-6">
+			<div
+				class="flex justify-between items-center border-b-2 border-gray-100 py-6 md:justify-start md:space-x-10">
+				<div class="flex justify-start lg:w-0 lg:flex-1">
+					<a href="#">
+						<span class="sr-only">Workflow</span>
+						<img class="h-8 w-auto sm:h-10" src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg" alt="">
+        </a>
+				</div>
+				<div class="-mr-2 -my-2 md:hidden">
+					<button type="button" class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+          <span class="sr-only">Open menu</span>
+          <!-- Heroicon name: menu -->
+          <svg class="h-8 w-8" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+          </svg>
+        </button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<h1 class="font-bold text-lg m-4">Hello, Tailwind</h1>
+
+	<div class="mx-2">
+		<div class="max-w-sm flex p-6 bg-white rounded-lg shadow-lg mx-auto">
+			<div class="flex-shrink-0">
+				<img class="h-12 w-12" src="https://cdn.glitch.com/226d3f91-bc90-405d-8b8b-eb403e359f3b%2Ficon.png?v=1578693322285" alt="ChitChat Logo">
+      </div>
+				<div class="ml-6 pt-1 ">
+					<h4 class="text-xl text-gray-900 leading-tight">ChitChat</h4>
+					<p class="text-base text-gray-600 leading-normal">You have a new message!</p>
+				</div>
+			</div>
+		</div>
 </body>
+
 </html>
